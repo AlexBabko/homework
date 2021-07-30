@@ -1,11 +1,8 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
 # Передаем аргумент из командной строки в параметры запуска теста. В данном случае мы передаем язык на котором ото-
 # бражается страница браузера
-
-
 def pytest_addoption(parser):
     parser.addoption('--browser_name', action='store', default="chrome",
                      help="Choose browser: chrome ")
