@@ -12,7 +12,7 @@ from .pages.product_page import ProductPage
 from .pages.base_page import BasePage
 
 
-# ----------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------
 @pytest.mark.need_review
 class TestUser():
     @pytest.fixture(scope="function", autouse=True)
